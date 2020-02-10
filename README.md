@@ -1,6 +1,6 @@
 # Mars3D项目模版 - Vue版
- Vue技术栈下的一个最简[Mars3D](http://cesium.marsgis.cn)应用的三维地球项目模版
- 这是一个基于 [VueCli](https://cli.vuejs.org/config/)并整合了leaflet、MarsGIS的基础项目
+ Vue技术栈下的一个最简[Mars3D](http://cesium.marsgis.cn)应用的三维地球项目模版。
+ 这是一个基于 [VueCli](https://cli.vuejs.org/config/)并整合了leaflet、MarsGIS的基础项目。
 
 
 
@@ -44,5 +44,5 @@
 
 
 ## 版权说明
-  本项目主要是为了展示[Mars3D](http://cesium.marsgis.cn)的项目应用，仅限大家学习之用，如需用于商业项目，请联系购买[http://cesium.marsgis.cn](火星科技)SDK授权。
+  本项目主要是为了展示[Mars3D](http://cesium.marsgis.cn)的项目应用，仅限大家学习之用，如需用于商业项目，请联系购买[火星科技](http://cesium.marsgis.cn)SDK授权。
  并且Mars3D-SDK类库并未开源（即`libs/cesiumjs/mars3d/`）,内部有作者公司logo及时效限制。
