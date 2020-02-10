@@ -33,7 +33,7 @@
     "vue-template-compiler": "^2.5.21"
   },
   "bugs": {
-    "url": "https://github.com/marsgis/MarsGIS-for-Cesium/issues",
+    "url": "https://github.com/marsgis/mars3d-simple-vue/issues",
     "email": "wh@marsgis.cn"
   },
   "author": {
@@ -41,5 +41,5 @@
     "url": "https://www.marsgis.cn"
   },
   "license": "ISC",
-  "homepage": "https://cesium.marsgis.cn"
+  "homepage": "https://github.com/marsgis/mars3d-simple-vue"
 }
