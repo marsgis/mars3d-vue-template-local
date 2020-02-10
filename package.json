@@ -1,0 +1,45 @@
+{
+  "name": "mars3d-simple-vue",
+  "version": "2.0.0",
+  "description": " Mars3D项目模版-Vue版",
+  "main": "index.js",
+  "keywords": [
+    "marsgis",
+    "mars3d",
+    "cesium",
+    "vue",
+    "gis"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.4.7",
+    "font-awesome": "^4.7.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.2.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-plugin-jsx-v-model": "^2.0.3",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "bugs": {
+    "url": "https://github.com/marsgis/MarsGIS-for-Cesium/issues",
+    "email": "wh@marsgis.cn"
+  },
+  "author": {
+    "name": "火星科技",
+    "url": "https://www.marsgis.cn"
+  },
+  "license": "ISC",
+  "homepage": "https://cesium.marsgis.cn"
+}
