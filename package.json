@@ -42,7 +42,7 @@
   },
   "author": {
     "name": "火星科技",
-    "url": "https://www.marsgis.cn"
+    "url": "http://www.marsgis.cn"
   },
   "license": "ISC",
   "homepage": "https://github.com/marsgis/mars3d-simple-vue"
