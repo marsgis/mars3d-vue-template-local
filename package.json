@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marsgis/mars3d-simple-vue"
+    "url": "https://github.com/marsgis/mars3d-simple-vue.git"
   },
   "bugs": {
     "url": "https://github.com/marsgis/mars3d-simple-vue/issues",
