@@ -1,5 +1,5 @@
 <template>
-  <div id="cesiumContainer" class="cesium-container"></div>
+  <div id="cesiumContainer" class="mars3d-container"></div>
 </template>
 
 <script>
@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style >
-.cesium-container {
+.mars3d-container {
   width: 100%;
   height: 100%;
 }
