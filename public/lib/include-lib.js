@@ -161,7 +161,7 @@
                 libpath + "terraformer/terraformer-1.0.9.min.js",
                 libpath + "terraformer/terraformer-wkt-parser-1.2.0.min.js",
             ],
-            'mars3d': [
+            'mars3d': [//三维地球“主库”
                 libpath + "cesiumjs/Cesium/Widgets/widgets.css", //cesium
                 libpath + "cesiumjs/Cesium/Cesium.js",
                 libpath + "cesiumjs/plugins/compatible/version.js", //cesium版本兼容处理
