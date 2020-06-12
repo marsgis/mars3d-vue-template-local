@@ -1,5 +1,5 @@
 <template>
-  <div id="mars-window" class="container">
+  <div id="centerDiv" class="mapcontainer">
     <Map :url="configUrl" @onload="onMapload" />
   </div>
 </template>
@@ -24,6 +24,7 @@ export default {
   },
 
   methods: {
+    //地图构造完成回调
     onMapload(viewer) {
       this.addPointToMap(viewer);
     },
@@ -89,7 +90,7 @@ export default {
 </script>
 
 <style lang="less">
-.container {
+.mapcontainer {
   position: relative;
   height: 100%;
   overflow: hidden;
