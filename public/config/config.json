@@ -129,7 +129,7 @@
                     { "field": "name", "name": "名称" },
                     { "field": "floor", "name": "楼层" }
                 ],
-                "visible":true
+                "visible":false
             }
         ]
     }
