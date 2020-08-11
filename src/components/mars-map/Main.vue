@@ -77,7 +77,8 @@ export default {
     },
 
     initMars3d(options) {
-      if (this[`$viewer${this.mapKey}`]) return;
+      if (this[`viewer${this.mapKey}`]) return;
+      
       const viewer = mars3d.createMap({
         id: `marsgis-container${this.mapKey ? `-${this.mapKey}` : ''}`,
         data: options.map3d,
