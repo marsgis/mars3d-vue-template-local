@@ -106,16 +106,9 @@ export default {
       viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
       viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
-      //二三维切换不用动画
-      if (viewer.sceneModePicker)
-        viewer.sceneModePicker.viewModel.duration = 0.0;
+      // 二三维切换不用动画
+      if (viewer.sceneModePicker) { viewer.sceneModePicker.viewModel.duration = 0.0; }
 
-
-      viewer.mars.click = () => {
-        // 触发 document 上的事件
-        document.dispatchEvent(new Event('mousedown'));
-        document.dispatchEvent(new Event('click'));
-      };
       this[`viewer${this.mapKey}`] = viewer;
 
       // 挂载到全局对象下，所有组件通过this.$viewer访问
