@@ -78,7 +78,7 @@ export default {
 
     initMars3d(options) {
       if (this[`viewer${this.mapKey}`]) return;
-      
+
       const viewer = mars3d.createMap({
         id: `marsgis-container${this.mapKey ? `-${this.mapKey}` : ''}`,
         data: options.map3d,
@@ -88,7 +88,7 @@ export default {
 
 
 
-       
+
       // Cesium 1.61以后会默认关闭反走样，对于桌面端而言还是开启得好，
       viewer.scene.postProcessStages.fxaa.enabled = true;
 
