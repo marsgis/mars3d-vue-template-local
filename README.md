@@ -2,7 +2,7 @@
  Vue技术栈下的一个最简[Mars3D](http://cesium.marsgis.cn)应用的三维地球项目模版。
  这是一个基于 [VueCli](https://cli.vuejs.org/config/)并整合了Cesium、MarsGIS的基础项目。
 
- 其他技术栈，请参考 [Mars3D开源导航](https://github.com/marsgis/MarsGIS-for-Cesium)
+ 其他技术栈，请参考 [Mars3D开源导航](https://github.com/marsgis/mars3d)
  
  
 
@@ -45,7 +45,7 @@
 1. 与 [mars3d-vue-cli](https://github.com/marsgis/mars3d-vue-cli)区别：
   lib包的引入方式不同，当前是head静态资源引入，mars3d-vue-cli是npm安装import引入方式。
 
-2. 与[mars3d-simple-vue-widget](https://github.com/marsgis/mars3d-simple-vue-widget)区别：
+2. 与[mars3d-vue-project-widget](https://github.com/marsgis/mars3d-vue-project-widget)区别：
   比其少了widget模块部分，其他没区别
 
 
