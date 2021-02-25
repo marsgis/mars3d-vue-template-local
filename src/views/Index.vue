@@ -7,7 +7,6 @@
 <script>
 import Map from '../components/mars3d/Map.vue'
 
-
 export default {
   name: 'Index',
 

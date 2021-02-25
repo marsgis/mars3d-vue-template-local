@@ -3,20 +3,13 @@
   "version": "3.0.0",
   "description": "Mars3D三维地球平台软件,Vue最简项目模版",
   "main": "index.js",
-  "keywords": [
-    "marsgis",
-    "mars3d",
-    "cesium",
-    "vue",
-    "gis"
-  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@turf/turf": "^5.1.6",
+    "@turf/turf": "^6.3.0",
     "mars3d-cesium": "^1.77.1",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
@@ -31,7 +24,6 @@
     "@vue/cli-plugin-vuex": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
     "@vue/eslint-config-standard": "^5.1.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.1",
@@ -51,6 +43,13 @@
     "url": "https://github.com/marsgis/mars3d-vue-template-local/issues",
     "email": "wh@marsgis.cn"
   },
+  "keywords": [
+    "marsgis",
+    "mars3d",
+    "cesium",
+    "vue",
+    "gis"
+  ],
   "author": "火星科技",
   "license": "LGPL",
   "homepage": "http://mars3d.cn",
