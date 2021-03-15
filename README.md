@@ -37,8 +37,10 @@
 
  > 组件定义文件：`src\components\mars3d\Map.vue`
 
+3. ### 安装 mars3d-cesium
+ npm install  mars3d-cesium --save
 
-3. ### 配置vue.config.js 
+4. ### 配置vue.config.js 
 当前仓库是基于 vueCli 4.x 
 ```js
 // vue.config.js  添加下面配置  
@@ -95,14 +97,14 @@ module.exports = {
 ```
 
 
-4. ### 创建地球 
+5. ### 创建地球 
  参考 `src\views\Index.vue`文件引入Map组件和构造创建地球，主要关注下下面代码处
 ```js
 <Map :url="configUrl" @onload="onMapload" />
 
 import Map from '../components/mars3d/Map.vue'
 ```
-5. ### 常见问题
+6. ### 常见问题
  运行报错时，请检查相关版本是否有冲突，比如webpack 4.43.0与copy-webpack-plugin 7.0.0 会出问题
   >1. 检查webpack和copy-webpack-plugin版本兼容问题
   >2. 检查webpack和copy-webpack-plugin与node、npm的版本兼容问题
