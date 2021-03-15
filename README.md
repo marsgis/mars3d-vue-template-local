@@ -38,7 +38,10 @@
  > 组件定义文件：`src\components\mars3d\Map.vue`
 
 3. ### 安装 mars3d-cesium
+```js
  npm install  mars3d-cesium --save
+ npm install  @turf/turf --save
+```
 
 4. ### 配置vue.config.js 
 当前仓库是基于 vueCli 4.x 
