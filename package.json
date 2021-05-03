@@ -12,6 +12,8 @@
     "@turf/turf": "^6.3.0",
     "mars3d-cesium": "^1.80.1",
     "core-js": "^3.6.4",
+    "mars3d-esri": "^3.0.3",
+    "mars3d-navigation": "^3.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"

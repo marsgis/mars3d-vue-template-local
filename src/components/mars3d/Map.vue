@@ -14,6 +14,14 @@ import Vue from 'vue'
 import './lib/mars3d.css'
 import * as mars3d from './lib/mars3d'
 
+// 导入插件(其他插件类似，插件清单访问：http://mars3d.cn/dev/guide/start/install.html)
+// arcgis wfs服务插件
+import 'mars3d-esri'
+
+// 导航球插件
+import 'mars3d-navigation/dist/mars3d-navigation.css'
+import 'mars3d-navigation'
+
 // 为了方便使用,绑定到原型链，在其他vue文件，直接 this.mars3d 来使用
 Vue.prototype.mars3d = mars3d
 Vue.prototype.Cesium = mars3d.Cesium
